@@ -1,7 +1,7 @@
 import numpy as np
 import imageio.v3 as img
 
-image_path = "C:\gambar\daun pepaya.jpg"
+image_path = "C:\gambar\daun singkong.jpg"
 image = img.imread(image_path)
 
 if len(image.shape) < 3 or image.shape[2] != 3:
